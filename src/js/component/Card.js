@@ -6,8 +6,8 @@ const Card = () => {
 		<div className="card">
 			<img className="card-img-top" src={image} alt="Card image cap" />
 			<div className="card-body p-0">
-				<h5 className="card-title text-center p-2">Card title</h5>
-				<p className="card-text p-4">
+				<h5 className="card-title text-center pt-3 m-0">Card title</h5>
+				<p className="card-text p-3">
 					Some quick example text to build on the card title and make
 					up the bulk of the cards content.
 				</p>

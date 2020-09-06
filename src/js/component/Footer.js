@@ -13,3 +13,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+//test fixed-bottom on footer on a larger screen to see if it changes behavior
