@@ -1,7 +1,7 @@
 import React from "react";
-import image from "./imagesample.jpg";
+import image from "../../img/imagesample.jpg";
 
-const Card = () => {
+export const Card = () => {
 	return (
 		<div className="card">
 			<img className="card-img-top" src={image} alt="Card image cap" />
@@ -22,4 +22,4 @@ const Card = () => {
 		//remember to add double curly brackets and quotes for style = {{"18rem"}}
 	);
 };
-export default Card;
+//export default Card;

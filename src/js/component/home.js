@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Jumbotron from "./Jumbotron";
-import Card from "./Card";
-import Footer from "./Footer";
+import { Navbar } from "./Navbar";
+import { Jumbotron } from "./jumbotron";
+import { Card } from "./Card";
+import { Footer } from "./Footer";
 
 //create your first component
 
-export function Home() {
+export const Home = () => {
 	return (
 		<div>
 			<Navbar />
@@ -33,4 +33,4 @@ export function Home() {
 			<Footer />
 		</div>
 	);
-}
+};
