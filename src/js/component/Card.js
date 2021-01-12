@@ -4,7 +4,7 @@ import image from "../../img/imagesample.jpg";
 
 export const Card = props => {
 	return (
-		<div className="card">
+		<div className="card m-2">
 			<img className="card-img-top" src={image} alt="Card image cap" />
 			<div className="card-body p-0">
 				<h5 className="card-title text-center pt-3 m-0">
